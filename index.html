@@ -5,6 +5,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Lorem ipsum dolor</title>
     <link href="index.css" rel="stylesheet">
+    <link href="title.css" rel="stylesheet">
     <link href="icon.png" rel="icon">
 </head>
 <body>
@@ -15,7 +16,7 @@
     <div class="container">
         <div>
             <!-- start -->
-            <img src="https://img.shields.io/badge/Test-Image-%23b1c0ce?style=for-the-badge&logo=appveyor">
+            <img src="https://img.shields.io/badge/Test-Image-%23b1c0ce?style=for-the-badge&logo=appveyor" alt="test">
             <h1>Testing display of HTML elements</h1>
             <p>This page contains a bunch of HTML Elements and text. You can copy the source code and use it test out
                 various CSS Properties. For testing purposes, you may use <dfn>internal styles</dfn>. Recall that these CSS
@@ -66,8 +67,8 @@
 
             <p>The following contains links to the Comm-244 home page</p>
 
-            <a href="http://web.simmons.edu/~grovesd/comm244/">Comm-244 Website</a>,
-            <a href="http://web.simmons.edu/~grovesd/comm244/week2.php">Week 2 page for class</A>
+            <a>Comm-244 Website</a>,
+            <a>Week 2 page for class</A>
 
             <h2>Lists</h2>
 
@@ -133,17 +134,17 @@
             <br>
             <hr>
             <small>
-                <center>Aerophine</center>
+                <div style="text-align: center;">Aerophine</div>
             </small>
         </div>
     </div>
 </div>
 <div>
     <ul class="menu" id="nav">
-        <li class="icon"><a><img height="40" src="icon.png" width="40"></a></li>
+        <li class="icon"><a><img height="40" src="icon.png" width="40" alt="icon"></a></li>
         <li class="iconText"><a class="iconText">Lorem ipsum</a></li>
         <li class="menu"><a class="menu" href="index.html">Home</a></li>
-        <li class="menu"><a class="menu">navbar</a></li>
+        <li class="menu"><a class="menu" href="article.html">article</a></li>
     </ul>
 </div>
 <script src="navbar.js"></script>
