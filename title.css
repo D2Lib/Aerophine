@@ -31,6 +31,8 @@ body {
     transform-style: preserve-3d;
     overflow-y: scroll;
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 .title {
@@ -77,12 +79,14 @@ body {
 
 .container {
     z-index: 2;
+    left: 0;
     position: absolute;
     top: 100vh;
     background: #080f13;
     line-height: 30px;
     font-weight: lighter;
-    padding: 60px;
+    padding: 5%;
+    width: 90%;
     color: #c3c3c3;
     font-size: 110%;
     min-height: 100vh;

@@ -48,6 +48,9 @@ body {
     height: 300px;
     background-size: cover;
     z-index: -1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .banner > div > h1 {
