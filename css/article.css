@@ -44,7 +44,7 @@ body {
 }
 
 .banner {
-    background-image: url("banner.jpg");
+    background-image: url("../img/banner.jpg");
     height: 300px;
     background-size: cover;
     z-index: -1;

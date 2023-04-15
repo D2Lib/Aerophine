@@ -137,6 +137,7 @@ li.menu a:hover {
     font-size: 250%;
     text-align: center;
     letter-spacing: 3px;
+    line-height: 100%;
 }
 
 .container h2 {
@@ -145,6 +146,7 @@ li.menu a:hover {
     font-size: 220%;
     text-align: center;
     letter-spacing: 3px;
+    line-height: 100%;
 }
 
 .container h3 {
@@ -153,6 +155,7 @@ li.menu a:hover {
     font-size: 190%;
     text-align: center;
     letter-spacing: 3px;
+    line-height: 100%;
 }
 
 .container h4 {
@@ -161,6 +164,7 @@ li.menu a:hover {
     font-size: 170%;
     text-align: center;
     letter-spacing: 3px;
+    line-height: 100%;
 }
 
 .container h5 {
@@ -169,6 +173,7 @@ li.menu a:hover {
     font-size: 150%;
     text-align: center;
     letter-spacing: 3px;
+    line-height: 100%;
 }
 
 .container h6 {
@@ -177,11 +182,23 @@ li.menu a:hover {
     font-size: 130%;
     text-align: center;
     letter-spacing: 3px;
+    line-height: 100%;
 }
 
 .container code {
     color: #c8c8c8;
-    font-family: Courier New, serif;
+    font-family: monospace;
+    font-size: 15px;
+    margin: 0;
+}
+
+.container pre  {
+    color: #c8c8c8;
+    background-color: #111418;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .container a {
