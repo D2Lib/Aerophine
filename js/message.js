@@ -1,9 +1,6 @@
 function showMsg(msg) {
-    document.getElementById("message").innerHTML = '<div style=' +
-        '"text-align: center;' +
-        'margin: 0;' +
-        'padding: 0">'
-        + msg + '</div>'
+    document.getElementById("message").innerHTML = '<div class="inner">'
+        + msg + '<a onclick="hideMsg()" class="close-btn">&#10006;</a></div>'
     document.getElementById("message").style.top = "0"
     document.getElementById("nav").style.top = "20px"
 }

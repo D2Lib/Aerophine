@@ -11,6 +11,7 @@
     <link href="img/icon.svg" rel="icon">
 </head>
 <body>
+<script src="js/anchor.js"></script>
 <script src="js/navbar.js"></script>
 <script src="js/message.js"></script>
 <div>
@@ -18,10 +19,14 @@
     <ul class="menu" id="nav">
         <li class="icon"><a><img alt="icon" height="40" src="img/icon.svg" width="40"></a></li>
         <li class="iconText"><a class="iconText">Aerophine</a></li>
+        <noscript><li class="nojs"><a class="nojs">JavaScript not loaded</a></li></noscript>
         <li class="menu"><a class="menu" href="index.html">Home</a></li>
         <li class="menu"><a class="menu" href="article.html">Article</a></li>
         <li class="menu"><a class="menu" onclick="showMsg('This is the power of html')">show msg</a></li>
         <li class="menu"><a class="menu" onclick="hideMsg()">hide msg</a></li>
+        <li class="menu"><a class="menu" href="#blank">blank</a></li>
+        <li class="menu"><a class="menu" href="#blank">blank</a></li>
+        <li class="menu"><a class="menu" href="#blank">blank</a></li>
     </ul>
 </div>
 <div class="box" id="scroll" onscroll="scrollControl()">

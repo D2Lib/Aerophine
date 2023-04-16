@@ -2,7 +2,7 @@
     position: fixed;
     display: block;
     background-color: #e34a4a;
-    color: #c3c3c3;
+    color: #e6e6e6;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -13,4 +13,25 @@
     z-index: 999;
     transition: 0.2s;
     overflow: scroll;
+}
+
+.inner {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.close-btn {
+    user-select: none;
+    float: right;
+    font-size: 90%;
+    margin-right: 5px;
+    transition: 0.3s;
+    border-radius: 3px;
+    width: 18px;
+}
+
+.close-btn:hover {
+    color: #e34a4a;
+    background-color: #e6e6e6;
 }
