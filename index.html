@@ -6,18 +6,24 @@
     <title>Aerophine</title>
     <link href="css/index.css" rel="stylesheet">
     <link href="css/title.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/messsage.css" rel="stylesheet">
     <link href="img/icon.svg" rel="icon">
 </head>
 <body>
+<script src="js/navbar.js"></script>
+<script src="js/message.js"></script>
 <div>
+    <div id="message"></div>
     <ul class="menu" id="nav">
         <li class="icon"><a><img alt="icon" height="40" src="img/icon.svg" width="40"></a></li>
         <li class="iconText"><a class="iconText">Aerophine</a></li>
         <li class="menu"><a class="menu" href="index.html">Home</a></li>
         <li class="menu"><a class="menu" href="article.html">Article</a></li>
+        <li class="menu"><a class="menu" onclick="showMsg('This is the power of html')">show msg</a></li>
+        <li class="menu"><a class="menu" onclick="hideMsg()">hide msg</a></li>
     </ul>
 </div>
-<script src="js/navbar.js"></script>
 <div class="box" id="scroll" onscroll="scrollControl()">
     <header class="title">
         <h1>Aerophine</h1>
