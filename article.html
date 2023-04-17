@@ -7,13 +7,15 @@
     <link href="css/index.css" rel="stylesheet">
     <link href="css/article.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
-    <link href="css/messsage.css" rel="stylesheet">
+    <link href="css/message.css" rel="stylesheet">
+    <link href="css/codeblock.css" rel="stylesheet">
     <link href="img/icon.svg" rel="icon">
+    <script src="js/anchor.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/message.js"></script>
+    <script src="js/codeblock.js"></script>
 </head>
 <body onscroll="scrollControl()">
-<script src="js/anchor.js"></script>
-<script src="js/navbar.js"></script>
-<script src="js/message.js"></script>
 <div>
     <div id="message"></div>
     <ul class="menu" id="nav">
@@ -21,7 +23,7 @@
         <li class="iconText"><a class="iconText">Article</a></li>
         <li class="menu"><a class="menu" href="index.html">Home</a></li>
         <li class="menu"><a class="menu" href="article.html">Article</a></li>
-        <li class="menu"><a class="menu" onclick="showMsg('This is an artical')">show msg</a></li>
+        <li class="menu"><a class="menu" onclick="showMsg('This is an article')">show msg</a></li>
         <li class="menu"><a class="menu" onclick="hideMsg()">hide msg</a></li>
     </ul>
 </div>

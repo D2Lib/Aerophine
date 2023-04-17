@@ -7,13 +7,15 @@
     <link href="css/index.css" rel="stylesheet">
     <link href="css/title.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
-    <link href="css/messsage.css" rel="stylesheet">
+    <link href="css/message.css" rel="stylesheet">
+    <link href="css/codeblock.css" rel="stylesheet">
     <link href="img/icon.svg" rel="icon">
+    <script src="js/anchor.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/message.js"></script>
+    <script src="js/codeblock.js"></script>
 </head>
 <body>
-<script src="js/anchor.js"></script>
-<script src="js/navbar.js"></script>
-<script src="js/message.js"></script>
 <div>
     <div id="message"></div>
     <ul class="menu" id="nav">
@@ -41,9 +43,9 @@
             <p>This page contains a bunch of HTML Elements and text. You can copy the source code and use it test out
                 various CSS Properties. For testing purposes, you may use <dfn>internal styles</dfn>. Recall that these
                 CSS
-                rules are placed in between the <code>head</code> tags using the following format:</p>
+                rules are placed in between the <code>head</code> tags using the following format:</p><a id="fn" href="#fnref"><sup>[1]</sup></a>
 
-            <pre><code class="language-javascript">
+            <pre><code>
 console.log("hello world")
 console.log("hello world")
 console.log("hello world")
@@ -161,7 +163,10 @@ console.log("hello world")
                 various CSS Properties. For testing purposes, you may use <strong>internal styles</strong>. Recall that
                 these CSS rules are placed in between the <code>head</code> tags using the following format:</p>
 
-            <br>
+            <br><br>
+            <footer>
+                footnote test <a href="#fn" id="fnref">↩︎</a>
+            </footer>
             <!-- end -->
         </div>
         <div class="footer">

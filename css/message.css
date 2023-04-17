@@ -9,7 +9,7 @@
     height: 20px;
     top: -20px;
     left: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     z-index: 999;
     transition: 0.2s;
     overflow: scroll;
@@ -26,12 +26,18 @@
     float: right;
     font-size: 90%;
     margin-right: 5px;
-    transition: 0.3s;
-    border-radius: 3px;
+    padding: 0;
     width: 18px;
+    height: 18px;
 }
 
-.close-btn:hover {
-    color: #e34a4a;
+.close-btn svg {
+    margin-top: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+.close-btn svg:hover {
+    stroke: #e34a4a;
     background-color: #e6e6e6;
 }
