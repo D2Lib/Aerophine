@@ -4,7 +4,7 @@ html {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: "Monument Extended", Roboto, Roboto, sans-serif;
+    font-family: Roboto, serif;
 }
 
 body {
@@ -37,7 +37,6 @@ body {
     padding: 5%;
     background: #080f13;
     line-height: 30px;
-    font-weight: lighter;
     min-height: 100vh;
     color: #c3c3c3;
     font-size: 110%;
@@ -58,7 +57,9 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 500%;
+    font-size: 600%;
+    font-family: Fervojo, serif;
+    letter-spacing: 5px;
     transform: translate(-50%, -50%);
 }
 

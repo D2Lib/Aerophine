@@ -13,6 +13,11 @@
     src: url(../font/Arial-BoldMT.woff2);
 }
 
+@font-face {
+    font-family: "Fervojo";
+    src: url(../font/Fervojo-Bold.woff2);
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
