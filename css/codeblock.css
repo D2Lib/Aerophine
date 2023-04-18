@@ -12,13 +12,17 @@
 .container pre button {
     font-family: Roboto, serif;
     position: absolute;
+    height: 30px;
+    width: 30px;
     top: 5px;
     right: 5px;
     padding: 0.25rem;
+    color: #080f13;
     background-color: #828282;
     border: ridge 1px #7b7b7c;
     border-radius: 5px;
-    text-shadow: #c4c4c4 0 0 2px;
+    transition: 0.3s;
+    overflow: hidden;
 }
 
 .container pre button:hover {

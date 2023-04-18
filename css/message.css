@@ -7,11 +7,11 @@
     margin: 0;
     width: 100%;
     height: 20px;
-    top: -20px;
+    top: -20.5px;
     left: 0;
     font-family: 'Roboto', sans-serif;
     z-index: 999;
-    transition: 0.2s;
+    transition: none 0.2s ease 0s;
     overflow: scroll;
 }
 
@@ -35,9 +35,4 @@
     margin-top: 1px;
     transition: 0.3s;
     border-radius: 3px;
-}
-
-.close-btn svg:hover {
-    stroke: #e34a4a;
-    background-color: #e6e6e6;
 }
