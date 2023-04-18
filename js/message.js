@@ -1,4 +1,7 @@
 function showMsg(msg, color="#e6e6e6", bgcolor="#e34a4a") {
+    globColor = color
+    globBgcolor = bgcolor
+
     if (document.getElementById("message").style.top === '-20.5px') {
         display(msg, color, bgcolor)
     } else {
@@ -33,8 +36,23 @@ function hideMsg() {
     document.getElementById("nav").style.top = "0"
 }
 
+let globColor = "#e6e6e6";
+let globBgcolor = "#e34a4a";
+
 window.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("message").innerHTML = '<div class="inner">msg<a onclick="hideMsg()" class="close-btn">' +
-        '<svg id="close-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" stroke="#e6e6e6" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>' +
-        '</a></div>'
+    const isHover = e => e.parentElement.querySelector(':hover') === e;
+
+    document.addEventListener('mousemove', function checkHover() {
+        let hovered = isHover(document.getElementById("close-svg"));
+        if (hovered !== checkHover.hovered) {
+            if (hovered) {
+                document.getElementById("close-svg").style.backgroundColor = globColor
+                document.getElementById("close-svg").style.stroke = globBgcolor
+            } else {
+                document.getElementById("close-svg").style.backgroundColor = globBgcolor
+                document.getElementById("close-svg").style.stroke = globColor
+            }
+            checkHover.hovered = hovered;
+        }
+    });
 })
