@@ -17,13 +17,24 @@
 </head>
 <body>
 <div>
-    <div id="message"><div class="inner">msg<a onclick="hideMsg()" class="close-btn"><svg id="close-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" stroke="#e6e6e6" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></a></div></div>
+    <div id="message">
+        <div class="inner">msg<a class="close-btn" onclick="hideMsg()">
+            <svg fill="none" height="16" id="close-svg" stroke="#e6e6e6" stroke-linecap="round"
+                 stroke-linejoin="round" stroke-width="4" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                <line x1="18" x2="6" y1="6" y2="18"></line>
+                <line x1="6" x2="18" y1="6" y2="18"></line>
+            </svg>
+        </a></div>
+    </div>
     <ul class="menu" id="nav">
-        <li class="nojs"><a class="nojs"><noscript>JavaScript not loaded</noscript></a></li>
+        <li class="nojs"><a class="nojs">
+            <noscript>JavaScript not loaded</noscript>
+        </a></li>
         <li class="icon"><a><img alt="icon" height="40" src="img/icon.svg" width="40"></a></li>
         <li class="iconText"><a class="iconText">Aerophine</a></li>
         <li class="menu"><a class="menu" href="title.html">Home</a></li>
         <li class="menu"><a class="menu" href="article.html">Article</a></li>
+        <li class="menu"><a class="menu" href="app.html">App</a></li>
         <li class="menu"><a class="menu" onclick="showMsg('This is the power of html')">show msg</a></li>
         <li class="menu"><a class="menu" onclick="hideMsg()">hide msg</a></li>
         <li class="menu"><a class="menu" href="#">blank</a></li>
@@ -43,7 +54,8 @@
             <p>This page contains a bunch of HTML Elements and text. You can copy the source code and use it test out
                 various CSS Properties. For testing purposes, you may use <dfn>internal styles</dfn>. Recall that these
                 CSS
-                rules are placed in between the <code>head</code> tags using the following format:</p><a id="fn" href="#fn-ref"><sup>[1]</sup></a>
+                rules are placed in between the <code>head</code> tags using the following format:</p><a href="#fn-ref"
+                                                                                                         id="fn"><sup>[1]</sup></a>
 
             <pre><code>
 console.log("hello world")
