@@ -2,6 +2,4 @@
 
 Modern website home page design
 
-## Online example
-
-[https://d2lib.github.io/Aerophine/](https://d2lib.github.io/Aerophine/)
+[Online Demo](http://aerophine.d2lib.com/title.html)
