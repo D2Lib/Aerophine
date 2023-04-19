@@ -207,8 +207,8 @@
 }
 
 .container blockquote {
-    border: #b1c0ce 2px solid;
-    border-left: #b1c0ce 10px double;
+    border-left: #828b95 10px solid;
+    background-color: #24282a;
     padding: 5px;
     border-radius: 2px 7px 7px 2px;
 }
@@ -221,6 +221,10 @@
 
 .container img {
     border-radius: 10px;
+}
+
+.container em {
+    text-decoration: underline;
 }
 
 .container > .footer {

@@ -7,11 +7,11 @@
     margin: 0;
     width: 100%;
     height: 20px;
-    top: -20.5px;
+    top: -20px;
     left: 0;
     font-family: 'Roboto', sans-serif;
     z-index: 999;
-    transition: none 0.2s ease 0s;
+    transition: none 0.25s ease 0s;
     overflow: scroll;
 }
 
@@ -25,14 +25,12 @@
     user-select: none;
     float: right;
     font-size: 90%;
-    margin-right: 5px;
     padding: 0;
-    width: 18px;
-    height: 18px;
+    height: 20px;
 }
 
 .close-btn svg {
-    margin-top: 1px;
+    padding: 0 4px 0 4px;
     transition: 0.3s;
-    border-radius: 3px;
+    height: 20px;
 }
