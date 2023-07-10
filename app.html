@@ -9,11 +9,13 @@
     <link href="css/navbar.css" rel="stylesheet">
     <link href="css/message.css" rel="stylesheet">
     <link href="css/codeblock.css" rel="stylesheet">
+    <link href="css/categories.css" rel="stylesheet">
     <link href="img/icon.svg" rel="icon">
-    <script src="js/anchor.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/message.js"></script>
     <script src="js/codeblock.js"></script>
+    <script src="js/categories.js"></script>
+    <script src="js/anchor.js"></script>
 </head>
 <body onscroll="scrollControl()">
 <div>
@@ -31,6 +33,7 @@
         <li class="nojs"><a class="nojs">
             <noscript>JavaScript not loaded</noscript>
         </a></li>
+        <li class="toc-btn"><a class="toc-btn" id="toc-btn" onclick="toc()"> &#9654; </a></li>
         <li class="icon"><a><img alt="icon" height="40" src="img/icon.svg" width="40"></a></li>
         <li class="iconText"><a class="iconText">App</a></li>
         <li class="menu"><a class="menu" href="title.html">Home</a></li>
@@ -40,8 +43,9 @@
         <li class="menu"><a class="menu" onclick="hideMsg()">hide msg</a></li>
     </ul>
 </div>
+<div class="toc" id="toc"><div class="toc-collapse"></div></div>
 <div class="box" id="scroll">
-    <div class="container">
+    <div class="container" id="contents">
         <!-- start -->
         <img alt="test" src="https://img.shields.io/badge/Test-Image-%23b1c0ce?style=for-the-badge&logo=appveyor">
         <hr>

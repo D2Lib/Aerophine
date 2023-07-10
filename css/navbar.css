@@ -51,6 +51,28 @@ li.iconText a {
     text-decoration: none;
 }
 
+li.toc-btn {
+    float: left;
+}
+
+li.toc-btn a {
+    color: #686868;
+    display: block;
+    font-size: 140%;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-top: 12px;
+    height: 35px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+li.toc-btn a:hover {
+    color: #50616d;
+    transition: 0.3s;
+}
+
 li.nojs {
     float: right;
     background-color: rgba(8, 15, 19, 0.7);
