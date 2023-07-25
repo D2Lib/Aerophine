@@ -35,7 +35,6 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 function toc() {
-    console.log(document.getElementById("toc").style.left)
     if (document.getElementById("toc").style.left === "0" || document.getElementById("toc").style.left === "0px") {
         document.getElementById("toc").style.left = "-400px"
         document.getElementById("toc-btn").innerHTML = " &#9654; "

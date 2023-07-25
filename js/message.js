@@ -21,6 +21,7 @@ function display(msg, color, bgColor) {
     setTimeout(function () {
         document.getElementById("message").style.top = "0"
         document.getElementById("nav").style.top = "20px"
+        document.getElementById("toc").style.padding = "60px 40px 5px"
     }, 40);
 }
 
@@ -36,6 +37,7 @@ function setColor(color, bgColor) {
 function hideMsg() {
     document.getElementById("message").style.top = "-20px"
     document.getElementById("nav").style.top = "0"
+    document.getElementById("toc").style.padding = "40px 40px 5px"
 }
 
 let globColor = "#e6e6e6", globBgColor = "#e34a4a";
