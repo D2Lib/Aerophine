@@ -25,12 +25,8 @@ window.addEventListener("DOMContentLoaded", () => {
         navigator.clipboard.writeText(text).then(() => {
             console.log("Text copied to clipboard. Element: " + code.toString());
         }).catch(() => {
-                console.error("Failed to copy text to clipboard. Element: " + code.toString())
-            }
-        )
-            .catch(() => {
-                alert("something went wrong");
-            });
+            console.error("Failed to copy text to clipboard. Element: " + code.toString())
+        })
 
         // visual feedback that task is completed
         button.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" fill="#007500" aria-hidden="true" height="16" viewBox="0 0 16 16" width="16" data-view-component="true" class="octicon octicon-cclassNamecolor-fg-success"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path></svg>';
