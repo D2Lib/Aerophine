@@ -19,7 +19,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
                 level = parseInt(openLevel);
 
-                const anchorTag = titleText.replace(/ /g, "_") + ";" + crypto.randomUUID();
+                const anchorTag = titleText.replace(/ /g, "_") + "-" + crypto.randomUUID();
                 toc += "<li><a href=\"#" + anchorTag + "\">" + titleText
                     + "</a></li>";
 
