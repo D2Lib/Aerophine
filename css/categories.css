@@ -7,6 +7,12 @@
     text-decoration: none !important;
 }
 
+.toc-title:active {
+    color: #c3c3c3 !important;
+    text-decoration: none !important;
+    background: none !important;
+}
+
 .toc {
     position: fixed;
     float: left;
