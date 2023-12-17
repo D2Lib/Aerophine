@@ -1,6 +1,6 @@
 # Aerophine
 
-Modern website home page design
+Modern website design
 
 [Online Demo](https://aerophine.d2lib.com/title.html)
 
